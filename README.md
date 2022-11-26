@@ -93,7 +93,7 @@ Now when it goes to line number second, the engine puts the second line  getApiC
 # React
 
 ### Why React
-	React is very popular and we can get good documentation of it and widely supported by community. You can make the application quickly in react.js. There are lot of open source modules that are supported in to react.js. React.js is sclable and it is best option when the application needs to be interactive. You can make faster application in react.js because it supports virtual dom. React.js with the next.js make top seo react application on google.
+React is very popular and we can get good documentation of it and widely supported by community. You can make the application quickly in react.js. There are lot of open source modules that are supported in to react.js. React.js is sclable and it is best option when the application needs to be interactive. You can make faster application in react.js because it supports virtual dom. React.js with the next.js make top seo react application on google.
 
 ### Virtual DOM
 When your application needs to be interactive, we need to do DOM manipulation. If you don’t do your DOM manipulation in correct way, there might be chances that your appliaiton might be slower. Reat.js cleverly works on dom part, whenever we changes for dom, react.js does the manipulation and update it into memory, and do only final update to the real dom when there is the best time to do it.
@@ -107,7 +107,7 @@ To handle the situation, we can use the context api. So the context api is basic
 For example let’s say we have the component hierarchy something like this,
 
 **Dashboard -> main nav -> Top nav
-			-> Side nav 
+			-> Side nav** 
 
 
 Now let’s say we need the data user name, on dashboard and top nav component. One way to do it like we can pass the data through props, but if you have the long hierarchy of nested component, then, there would be the problem of props drilling. In that case we can use the context api. We got the user name on dashboard component, now through the provider we can pass the data from dashboard. Now we can get this user name directly on top nav component using useContext. So there is no any sync with main nav.
@@ -120,7 +120,7 @@ When the application is large
 In application, the state is frequently changed
 When we need to share common state over the various components
 
-** Redux Diagram
+**Redux Diagram**
 
 ![React-diagram](https://raw.githubusercontent.com/suman/interview-preparation-content/solution-architect/Redux.jpg)
 
