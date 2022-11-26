@@ -106,9 +106,9 @@ To handle the situation, we can use the context api. So the context api is basic
 
 For example let’s say we have the component hierarchy something like this,
 
-```Dashboard -> main nav -> Top nav
-			     	             -> Side nav 
-```
+**Dashboard -> main nav -> Top nav
+			-> Side nav 
+
 
 Now let’s say we need the data user name, on dashboard and top nav component. One way to do it like we can pass the data through props, but if you have the long hierarchy of nested component, then, there would be the problem of props drilling. In that case we can use the context api. We got the user name on dashboard component, now through the provider we can pass the data from dashboard. Now we can get this user name directly on top nav component using useContext. So there is no any sync with main nav.
 	
