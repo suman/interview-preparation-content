@@ -1,5 +1,3 @@
-Explored the following topics for solution architect interview
-
 Note: I made notes and did code pratices during the prepartion for interview of solution architect, these info might be perfectly articulated, if you found any errors and want to give any suggestion please ping at sumanbogati@gmail.com
 
 # ES6 Features
