@@ -1,4 +1,4 @@
-Note: I made notes and did code pratices during the prepartion for interview of solution architect, these info might be perfectly articulated, if you found any errors and want to give any suggestion please ping at sumanbogati@gmail.com
+Note: I made notes and did code pratices during the prepartion for interview of solution architect, these info are not perfectly articulated, if you found any errors and want to give any suggestion please ping at sumanbogati@gmail.com
 
 # ES6 Features
 
@@ -40,7 +40,7 @@ Similar thing is applied with the function declaration.
 
 ### Clousre
 
-When we create the one function into another function, then the inner function is called closure. We all know that in javascript, inner function can access the variable of outer function. But what interesting part with the closure is, even after invoking the outer function, the inner function can access the variable of outer function. Let’s understand this with the example.
+When we create the one function into another function, then the inner function is called closure. We all know that in JavaScript, inner function can access the variables of outer function. But what interesting part with the closure is, even after invoking the outer function, the inner function can access the variable of outer function. Let’s understand this with the example.
 
 For example we have the outer function called parent
 ```
@@ -58,6 +58,8 @@ const parentObj = parent();
 
 parentObj();
 ```
+In normal scenario when the function is invoked then the scopes of variables of that funcion is destroyed, but here even after invoked parent() function, the variable fatherName is not destroyed, because parentObj() is a clousre function which can access the variable fatherName and does console its value from inner funciton.
+
 ### Event Loop
 
  JavaScript is single thread language with asynchronous behaviour. Let’s understand the event loop with the example. Here we have three line of codes
