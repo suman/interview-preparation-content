@@ -1,5 +1,14 @@
 Note: I made notes and did code pratices during the prepartion for interview of solution architect, these info are not perfectly articulated, if you found any errors and want to give any suggestion please ping at sumanbogati@gmail.com
 
+# Table of Contents
+1. [ES6 Features](#es6-features)
+2. [Interesting factor in JavaScript](#interesting-factor-in-javascript)
+3. [React](#react)
+4. [NodeJs](#nodejs)
+5. [TypeScript](#typescript)
+6. [Cloud computing](#cloud-computing)
+7. [CI/CD](#ci-and-cd)
+8. [Rest Apis vs XML Rpc vs Soap Apis](rest-apis-vs-xml-rpc-vs-soap-apis)
 # ES6 Features
 
 - Spread Operator
@@ -230,7 +239,7 @@ I have few experience on nodejs, like. In aws (cloud), I worked on lambda, there
 - https://github.com/ably-labs/websockets-cursor-sharing
 - https://ably.com/blog/web-app-websockets-nodejs
 
-# Typescript
+# TypeScript
 
 [Very simple and incomplete Todo Applicaiton](https://suman.github.io/react-typescript-todo/) with React and TypeScript and you can found the source code [here](https://github.com/suman/react-typescript-todo)
 
@@ -413,7 +422,7 @@ It has primary and sorting key. By using the combination of this, you can get ma
 https://aws.amazon.com/blogs/database/how-to-determine-if-amazon-dynamodb-is-appropriate-for-your-needs-and-then-plan-your-migration/
 
 Github actions and workflow
-# CI/CD
+# CI and CD
 CI/CD stands for continues integration and continues deliver, every software goes through the different cycles till it reaches to the end customer. When the requirement is finialized, the development of software would be started and this phase, other stakeholders might be interested on followings points
 - are the features on the way as client want
 - are the securities being validated
