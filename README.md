@@ -8,7 +8,7 @@ Note: I made notes and did code pratices during the prepartion for interview of 
 5. [TypeScript](#typescript)
 6. [Cloud computing](#cloud-computing)
 7. [CI/CD](#ci-and-cd)
-8. [Rest Apis vs XML Rpc vs Soap Apis](rest-apis-vs-xml-rpc-vs-soap-apis)
+8. [Rest Apis vs XML Rpc vs Soap Apis](#rest-apis-vs-xml-rpc-vs-soap-apis)
 # ES6 Features
 
 - Spread Operator
